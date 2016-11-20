@@ -1,3 +1,4 @@
-# Introduction
+# Google Cloud Platform
 
-- [Github](https://github.com/GoogleCloudPlatform/)
+
+> Build What's Next. Better software. Faster.
