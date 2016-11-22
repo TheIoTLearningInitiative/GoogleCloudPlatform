@@ -15,7 +15,26 @@
 > - Documentation
 
 ```sh
+root@edison:~/CodeLabs/EkBalam# wget http://pngimg.com/upload/face_PNG5660.png
+--2016-11-22 04:05:58--  http://pngimg.com/upload/face_PNG5660.png
+Resolving pngimg.com... 104.28.15.90, 104.28.14.90, 2400:cb00:2048:1::681c:e5a, ...
+root@edison:~# curl https://sdk.cloud.google.com | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   421    0   421    0     0    712      0 --:--:-- --:--:-- --:--:--   860
+Downloading Google Cloud SDK install script: https://dl.google.com/dl/cloudsdk/channels/rapid/install_google_cloud_sdk.bah
+######################################################################## 100.0%
+Running install script from: /tmp/tmp.kCrXrUtLHV/install_google_cloud_sdk.bash
+which curl
+curl -# -f https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz
+######################################################################## 100.0%
 
+Installation directory (this will create a google-cloud-sdk subdirectory) (/home/root): 
+mkdir -p /home/root
+tar -C /home/root -zxvf /tmp/tmp.8Z05HN2VwS/google-cloud-sdk.tar.gz
+google-cloud-sdk/
+...
+...
 google-cloud-sdk/.install/.download/
 
 /home/root/google-cloud-sdk/install.sh
