@@ -16,4 +16,16 @@
 
 ```sh
 
+google-cloud-sdk/.install/.download/
+
+/home/root/google-cloud-sdk/install.sh
+Welcome to the Google Cloud SDK!
+
+To help improve the quality of this product, we collect anonymized usage data
+ and anonymized stacktraces when crashes are encountered.. You may choose to opt
+ out of this collection now (by choosing 'N' at the below prompt), or at any
+ time in the future by running the following command:
+    gcloud config set disable_usage_reporting true
+
+Do you want to help improve the Google Cloud SDK (Y/n)?  Y
 ```
