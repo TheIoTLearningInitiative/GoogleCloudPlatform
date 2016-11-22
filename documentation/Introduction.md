@@ -47,4 +47,5 @@ To help improve the quality of this product, we collect anonymized usage data
     gcloud config set disable_usage_reporting true
 
 Do you want to help improve the Google Cloud SDK (Y/n)?  Y
+
 ```
