@@ -48,4 +48,69 @@ To help improve the quality of this product, we collect anonymized usage data
 
 Do you want to help improve the Google Cloud SDK (Y/n)?  Y
 
+
+This will install all the core command line tools necessary for working with
+the Google Cloud Platform.
+
+
+
+Your current Cloud SDK version is: 135.0.0
+Installing components from version: 135.0.0
+
++----------------------------------------------------------------------------+
+|                    These components will be installed.                     |
++-----------------------------------------------------+------------+---------+
+|                         Name                        |  Version   |   Size  |
++-----------------------------------------------------+------------+---------+
+| BigQuery Command Line Tool                          |     2.0.24 | < 1 MiB |
+| BigQuery Command Line Tool (Platform Specific)      |     2.0.24 | < 1 MiB |
+| Cloud SDK Core Libraries (Platform Specific)        | 2016.11.07 | < 1 MiB |
+| Cloud Storage Command Line Tool                     |       4.22 | 2.8 MiB |
+| Cloud Storage Command Line Tool (Platform Specific) |       4.18 | < 1 MiB |
+| Default set of gcloud commands                      |            |         |
++-----------------------------------------------------+------------+---------+
+
+For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+#============================================================#
+#= Creating update staging area                             =#
+#============================================================#
+#= Installing: BigQuery Command Line Tool                   =#
+#============================================================#
+#= Installing: BigQuery Command Line Tool (Platform Spec... =#
+#============================================================#
+#= Installing: Cloud SDK Core Libraries (Platform Specific) =#
+#============================================================#
+#= Installing: Cloud Storage Command Line Tool              =#
+#============================================================#
+#= Installing: Cloud Storage Command Line Tool (Platform... =#
+#============================================================#
+#= Installing: Default set of gcloud commands               =#
+#============================================================#
+#= Creating backup and activating new installation          =#
+#============================================================#
+
+Performing post processing steps...done.                                        
+
+Update done!
+
+
+Modify profile to update your $PATH and enable shell command 
+completion? (Y/n)?  Y
+
+The Google Cloud SDK installer will now prompt you to update an rc 
+file to bring the Google Cloud CLIs into your environment.
+
+Enter a path to an rc file to update, or leave blank to use 
+[/home/root/.bashrc]:  
+[/home/root/.bashrc] has been updated.
+Start a new shell for the changes to take effect.
+
+
+For more information on how to get started, please visit:
+  https://cloud.google.com/sdk/docs/quickstarts
+
+
+root@edison:~# 
 ```
